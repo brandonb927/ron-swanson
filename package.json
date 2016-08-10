@@ -1,0 +1,24 @@
+{
+  "name": "ron-swanson",
+  "description": "A local runnable instance of the Ron Swanson API for use in your terminal",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": "brandonb927",
+  "repository": "brandonb927/ron-swanson",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublish": "npm run build"
+  },
+  "bin": {
+    "ron-swanson": "./dist/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-2": "^6.13.0"
+  },
+  "dependencies": {
+    "ron-swanson-quotes": "git+https://github.com/jamesseanwright/ron-swanson-quotes.git"
+  }
+}
