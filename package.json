@@ -1,7 +1,7 @@
 {
   "name": "ron-swanson",
   "description": "A local runnable instance of the Ron Swanson API for use in your terminal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "author": "brandonb927",
   "repository": "brandonb927/ron-swanson",
